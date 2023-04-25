@@ -1,0 +1,40 @@
+.team {
+    padding-bottom: 112px;
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+        border-radius: 20px;
+        &:hover {
+                background: #c1deef;
+                border-radius: 20px;
+        }
+        &__name {
+            margin-top: 30px;
+        }
+        &__prof {
+            margin: 10px 0;
+        }
+        &__social_media-contact {
+            width: 112px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        &__link {
+            :hover{
+                background: #91b0e7;
+                box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+                border-radius: 20px;
+        
+            }
+        }
+    }
+}

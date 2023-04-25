@@ -1,0 +1,22 @@
+.subscribe {
+    padding: 112px 0;
+    &__center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .center {
+        text-align: center;
+
+    }
+    &-form {
+        position:relative;
+        display: flex;
+        justify-content: center;
+        .email {
+            width: 688px;
+            height: 58px;
+            padding: 15px 20px;
+        }
+    }
+}

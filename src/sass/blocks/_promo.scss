@@ -1,0 +1,36 @@
+.promo {
+    margin: 0 auto;
+    width: 100%;
+    // height: 100vh;
+    height: 843px;
+    background: url('/img/background.jpg') center (center/cover) no-repeat;
+    opacity: rgba(0, 0, 0, 0.5);
+    padding: 30px 0 114px 0;
+    .head {
+        text-align: center;
+        padding: 172px 0 214px 0;
+    .subheader {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        letter-spacing: 0.1px;
+        color: $main-color;
+        margin-bottom: 40px;
+    }
+    .header {
+        margin: 0 auto;
+        margin-bottom: 50px;
+        width: 628px;
+        font-weight: 400;
+        line-height: 80px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    .descr {
+        margin: 0 auto;
+        margin-bottom: 60px;
+        width: 536px;
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+    }
+}

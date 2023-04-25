@@ -1,0 +1,47 @@
+.matters {
+    padding: 0 0 160px 0;
+    
+    .matters_del {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        &-block1 {
+            
+        }
+        &-block2 {
+            width: 381px;
+            height: 296px;
+            align-items: center;
+            justify-content: center;
+            .dash {
+                width: 94px;
+                height: 7px;
+                background: $dash;
+                margin: 23px 0 35px 0;
+            }
+        }
+        &-header {
+            width: 266px;
+            height: 100px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0.2px;
+            color: #252B42;
+        }
+        &-descr {
+            margin: 25px 0 35px 0;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            color: #737373;
+        }
+        &-link {
+            padding-right: 10px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            color: $main-color;
+        }
+    }
+
+}

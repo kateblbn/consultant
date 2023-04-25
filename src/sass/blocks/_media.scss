@@ -1,0 +1,331 @@
+@media (min-width: 1024px) {
+    .promo {
+        .hamburger {
+            display: none;
+    }
+}
+
+}
+@media (max-width: 1024px) {
+    .container {
+        max-width: 824px;
+    }
+    .promo {
+            .hamburger {
+                display: none;
+        }
+    }
+    .matters_del-block2 {
+        padding-left: 50px;
+    }
+    .attorneys__cards {
+        .card {
+            margin-bottom: 25px;
+        }
+    }
+    .review {
+        &__items {
+            justify-content: center;
+        }
+        &__item {
+        margin-bottom: 25px;
+    }
+}
+.subscribe {
+.subscribe-form  {
+    .email {
+        width: 462px;
+}
+}
+}
+.footer {
+    .wrap {
+        display: block; 
+       text-align: center;
+}
+    &__nesting {
+        gap: 30px;
+        justify-content: center;
+    }
+}
+}
+@media (max-width: 991px) {
+    .container {
+        max-width: 700px;
+    }
+    .promo {
+        nav {
+            .hidden {
+                display: none;
+            }
+        }
+        .hamburger {
+            display: block;
+    }
+    }
+    .practice {
+        .cards {
+            justify-content: center;
+            gap: 60px;
+        }
+    }
+    .matters {
+        .matters_del {
+            justify-content: center;
+            &-block2 {
+                padding-left: 0;
+            }
+        }
+    }
+    .attorneys {
+        &__cards {
+            justify-content: center;
+            gap: 60px;
+            .card {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .review {
+        &__items {
+            gap: 30px;
+        }
+        &__item {
+            margin-bottom: 0;
+        }
+    }
+    .team {
+        &__cards {
+            justify-content: center;
+            gap: 60px;
+        }
+        .card {
+            margin-bottom: 0;
+        }
+    }
+    .subscribe {
+        .subscribe-form  {
+            .email {
+                width: 340px;
+        }
+         
+    } 
+    }
+    .footer {
+        .wrap {
+             display: block; 
+            text-align: center;
+    }
+}
+      
+
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 620px;
+    }
+    .fs58 {
+        font-size: 51px;
+    }
+    .promo {
+        height: 627px;
+        .head {
+            padding: 62px 0 117px 0;
+            .header {
+                margin-bottom: 20px;
+            }
+            .subheader {
+                margin-bottom: 27px;
+            }
+        }
+    }
+    .practice {
+        padding: 50px 0 100px 0;
+        &__text {
+            margin-bottom: 50px;
+        }
+    }
+    .matters {
+        padding: 50px 0;
+    }
+    .attorneys {
+        padding: 50px 0;
+        &__main {
+            margin-bottom: 50px;
+        }
+        &__cards {
+            row-gap: 30px;
+        }
+    }
+    .review {
+        padding: 50px 0;
+        &__descr {
+            margin-bottom: 50px;
+
+        }
+    }
+    .team {
+        padding: 50px 0;
+    }
+    .subscribe {
+        padding: 50px 0;
+        button {
+            position:initial;
+        }
+        
+    }
+    .footers {
+        padding: 50px 0;
+    }
+}
+@media (max-width: 575px) {
+    .container {
+        max-width: 510px;
+    }
+    .fs58 {
+        font-size: 45px;
+    }
+    .promo {
+        .head {
+            .header {
+                width: 100%;
+            }
+            .descr {
+                width: 100%;
+            }
+        }
+    }
+    .practice {
+        &__text {
+            width: 100%;
+        }
+        .cards {
+            gap: 15px;
+        }
+    }
+    .matters {
+        &_del {
+            &-block1 {
+                
+                img  {
+                    width: 100%;
+                }
+            }
+            &-block2 {
+                width: 100%;
+            }    
+        }
+    
+    }
+    .attorneys {
+        &__main {
+            width: 100%;
+        }
+        &__cards {
+            gap: 25px;
+        }
+    }
+    .team {
+        &__cards {
+            gap: 25px;
+        }
+    }
+    .footer {
+        &__nesting {
+            gap: 25px;
+        }
+    }
+
+}
+@media (max-width: 345px) {
+    .container {
+        max-width: 330px;
+    }
+    .fs14 {
+        font-size: 12px;
+    }
+    .fs16 {
+        font-size: 14px;
+    }
+    .fs40 {
+        font-size: 27px;
+    }
+    .fs58 {
+        font-size: 30px;
+    }
+    .fs20 {
+        font-size: 15px;
+    }
+
+    .practice {
+        padding: 50px 0;
+        &__text {
+            margin-bottom: 10px;
+        }
+        &__subheader {
+            margin-bottom: 0;
+        }
+        &__header {
+            margin-bottom: 0;
+        }
+
+    }
+    .matters {
+        padding: 0 0 50px 0;
+        .matters_del-block2 {
+            height: 100%;
+            .dash {
+                margin: 20px 0 ;
+            }    
+        }
+        .matters_del-header {
+            height: 100%;
+        }
+        .matters_del-descr {
+           margin : 0 0 25px 0;
+        }
+    }
+    .attorneys {
+        padding: 0 0 50px 0;
+        &__main {
+            margin-bottom: 20px;
+            &_header {
+                margin: 0;
+            }
+            &-descr {
+                width: 100%;
+            }
+        }
+        &__cards {
+            gap: 2px;
+        }
+    }
+    .review {
+        padding: 0 0 50px 0;
+        &__descr {
+            margin-bottom: 20px;
+        }
+    }
+    .team {
+        padding: 0 0 50px 0;
+    }
+    .subscribe {
+        padding: 0 0 50px 0;
+        form {
+            .email {
+                height: 40px;
+            }
+            button {
+                font-size: 14px;
+            }
+        }
+        .btn_subscribe {
+            height: 40px;
+        }
+    }
+    .footer {
+        padding: 0 0 50px 0;
+    }
+
+
+}

@@ -1,0 +1,41 @@
+.review {
+    padding-bottom: 112px;
+    &__subheader {
+        margin-bottom: 10px;
+    }
+    &__header {
+        margin-bottom: 10px;
+    }
+    &__descr {
+        margin-bottom: 96px;
+    }
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 512px;
+
+    }
+    &__text {
+        width: 320px;
+        display: flex;
+        text-align: center;    
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    &__name {
+        margin-top: 10px;
+        margin-bottom: 2px;
+    }
+    &__img {
+        width: 128px;
+        height: 128px;
+
+        border-radius: 200px;
+    }
+}

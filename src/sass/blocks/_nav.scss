@@ -1,0 +1,33 @@
+nav {
+    position: relative;
+    div {
+        display: flex;
+        align-items: center;
+    
+    }
+    .logo {
+        padding-right: 87px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        letter-spacing: 0.3px;
+        font-weight: 700;
+        color: #FFFFFF;
+        &:hover {
+            text-decoration: none;
+
+        }
+    }
+    .bar {
+        width: 325px;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            padding-left: 40px;
+            font-family: 'Montserrat';
+            font-weight: 700;
+            text-align: center;
+            color: #FFFFFF;    
+        }
+    }
+}

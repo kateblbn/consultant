@@ -1,0 +1,68 @@
+.btn {
+    position: absolute;
+    right: 0;
+    &_color {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    &_learn {
+        width: 144.14px;
+        height: 44px;
+        border: 1px solid $main-color;
+        border-radius: 37px;
+        background-color: transparent;
+    }
+    &_subscribe {
+        position: absolute;
+        right: 179px;
+        width: 117px;
+        height: 58px;
+        background: $main-color;
+        border: 1px solid #E6E6E6;
+        border-radius: 0px 5px 5px 0px;
+        &:hover {
+            outline: none;
+         }
+         &:focus {
+            outline: none;
+         }
+    
+    }
+}
+.btn_log {
+    margin-right: 10px;
+    width: 138px;
+    height: 52px;
+    border: none;
+    background: transparent;
+    border-radius: 5px;
+
+    &:hover {
+        box-shadow: 2px 2px 4px 4px $main-color;   
+     }
+     &:focus {
+        outline: none;
+     }
+}
+.btn_join {
+    padding: 15px 25px;    
+    width: 138px;
+    height: 52px;
+    border: none;
+    background: $main-color;
+    border-radius: 5px;
+    &:hover {
+        box-shadow: 2px 2px 4px 4px $main-color;
+    }
+    &:focus {
+        outline: none;
+    }
+    &-head {
+        margin: 0 auto;
+        font-weight: 700;
+        color: #FFFFFF;        
+    }
+    
+}
